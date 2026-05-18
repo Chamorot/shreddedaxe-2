@@ -1,0 +1,16 @@
+name: ShreddedAxe
+version: 1.0.0
+main: com.shreddedaxe.plugin.ShreddedAxePlugin
+api-version: '1.21'
+description: Adds the Shredded Axe custom weapon with Corrosive Poison ability.
+authors: [YourName]
+
+commands:
+  shreddedaxe:
+    description: Claim the Shredded Axe or manage it.
+    usage: /shreddedaxe [owner|restore]
+
+permissions:
+  shreddedaxe.admin:
+    description: Allows restoring the Shredded Axe via /shreddedaxe restore.
+    default: op
